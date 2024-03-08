@@ -6,9 +6,6 @@ from myLibrary.functions import *
 class TestDataFrames(unittest.TestCase):
     
     def assertDataFramesAlmostEqual(self, df1, df2, precision=3):
-        """
-        比较两个 DataFrame 是否相等，精度为指定的小数位数。
-        """
         arr1 = df1.values
         arr2 = df2.values
         
