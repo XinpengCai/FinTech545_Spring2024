@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 import numpy as np
-from myLibrary.functions import *
+from Lib.functions import *
 
 class TestDataFrames(unittest.TestCase):
     
